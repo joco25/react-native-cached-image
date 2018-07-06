@@ -2,7 +2,7 @@
 
 CachedImage component for react-native
 
-This package is greatly inspired by [@jayesbe](https://github.com/jayesbe)'s amazing [react-native-cacheable-image](https://github.com/jayesbe/react-native-cacheable-image) but adds some functionality that we were missing when trying to handle caching images in our react-native app.
+This package is greatly inspired by [@jayesbe](https://github.com/jayesbe)'s amazing [react-native-cacheable-image](https://github.com/joco25/react-native-cacheable-image) but adds some functionality that we were missing when trying to handle caching images in our react-native app.
 
 ## Installation
 
@@ -10,7 +10,7 @@ This package is greatly inspired by [@jayesbe](https://github.com/jayesbe)'s ama
     - or -
     yarn add react-native-cached-image
 
-We use [`react-native-fetch-blob`](https://github.com/wkh237/react-native-fetch-blob#installation) to handle file system access in this package and it requires an extra step during the installation.  
+We use [`rn-fetch-blob`](https://www.npmjs.com/package/rn-fetch-blob) to handle file system access in this package and it requires an extra step during the installation.  
 
 _You should only have to do this once._
 
